@@ -1,5 +1,5 @@
 FROM alpine
-RUN apk add --update nodejs npm --repository=http://dl-cdn.alpinelinux.org/alpine/latest-stable/main/
+RUN apk add --update nodejs npm --repository=http://mirrors.tuna.tsinghua.edu.cn/alpine/latest-stable/main/
 
 ENV NODE_ENV production
 
